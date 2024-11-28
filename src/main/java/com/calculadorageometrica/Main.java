@@ -1,7 +1,7 @@
 // 1 - Bibliotecas / Imports
 
 // 1.5 - Pacotes
-package com.calculadorageometrica; // pacote
+package com.calculadorageometrica;
 
 // 2 - Classe
 public class Main {
@@ -12,19 +12,12 @@ public class Main {
         System.out.println("Hello world!");
     }
 
-    // public static float calcularAreaQuadrado(float numBase, float numAltura){
-    //     float resultado = numBase + numAltura;
-    //     System.out.println("A área do quadrado de base " + numBase + " e " + "altura de " + numAltura + " é de " + resultado);
-    //     return resultado;
-    // }
-
     public static float calcularAreaDoQuadrado(float numLado){
         float resultado = numLado * numLado;
         String mensagem = "Á área do quadrado de lado " + numLado + " é de ";
         System.out.println(mensagem + resultado);
         return resultado;
     }
-
 
     public static float calcularAreaDoRetangulo(float numBase, float numAltura){
         float resultado = numBase + numAltura;
@@ -46,17 +39,4 @@ public class Main {
         System.out.println(mensagem + resultado);
         return resultado;
     }
-
-
-
-
-    
-
-
-
-
-
-
-
-
 }
